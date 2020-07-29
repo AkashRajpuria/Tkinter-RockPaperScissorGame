@@ -13,7 +13,12 @@ python Stonepaperscissor.py
 (2)Enter your username and click on submit                                                                                          
 (3)Below username you have three button Rock,Scissor,paper You can select anyone                                                                  
 (4)Computer will make its selection automatically                                                                                   
-(5)After playing multiple times you can click on result                                                     
+(5)After playing multiple times you can click on result     
+
+
+
+
+![alt text](https://github.com/AkashRajpuria/Tkinter-RockPaperScissorGame/blob/master/Stonepapersissior.PNG)
 
 
 
