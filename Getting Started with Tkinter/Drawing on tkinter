@@ -1,0 +1,15 @@
+from tkinter import *
+window=Tk()
+def mouse_press(event):
+    global prev
+    prev=event
+
+canvas =Canvas(window,width=640,height=480)
+canvas.pack()
+def draw(event):
+    global prev
+    canvas.create_line(prev.x,prev.y,event.x,event.y,width=5)
+    prev=event
+canvas.bind('<ButtonPress>',mouse_press)
+canvas.bind('<B1-Motion>',draw)
+window.mainloop()
